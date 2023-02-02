@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+.jumbotron
+{
+background-color:orange;
+}
+section
+{
+background-color:grey;
+//opacity:50%;
+}
+img
+{
+width:310px;
+height:350px;
+}
+.footer
+{
+margin-top:10px;
+padding:20px;
+}
+
+.sel
+{
+padding:20px;
+}
+</style>
+</head>
+<body>
+<header>
+<div class="container-fluid text-center jumbotron bg-warning">
+<h2>RVCE BOOK STORE<h2>
+<h4>KNOWLEGE</h4>
+</div>
+<nav class="navbar navbar-inverse">
+<div class="container-fluid">
+<ul class="nav navbar-nav">
+<li class="nav-item"><a href="home.html">HOME</a></li>
+<li class="nav-item"><a href="catalogue.html">BOOK CATALOGUES</a></li>
+<li class="nav-item"><a href="registration.html">REGISTARTION</a></li>
+<li class="nav-item"><a href="login.html">LOGIN</a></li>
+</ul>
+</div>
+</nav>
+</header>
+<section>
+<div class="container">
+<form action="order_confirmation.html" class="form">
+<div class=" text-center">
+<div class="panel-header border-2">
+<h4><strong>PAYMET</strong></h4>
+</div>
+<div class="panel-body border-2">
+<label>Credit Card</label>
+<input type="radio" name="pay">
+<br>
+<label>Debit Card</label>
+<input type="radio" name="pay">
+<br>
+<label style="margin-right:45px;">UPI</label>
+<input type="radio" name="pay">
+</div>
+<div class="panel-footer border-2">
+<p>PAY</p>
+<h4><strong>500/-</strong></h4>
+<button class="btn btn-primary">PAY NOW </button>
+</div>
+</div>
+
+</form>
+</section>
+<footer>
+<div class="footer container-fluid text-center bg-primary">
+<p><strong>&copy COPYRIGHT 2022</strong></p>
+</div>
+</footer>
